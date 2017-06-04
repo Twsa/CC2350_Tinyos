@@ -7,5 +7,9 @@
 语言：nesc
 
 2017/06/03
-创建配置环境文件：tinyos.sh
-
+1、创建配置环境文件：tinyos.sh
+2、配置环境时需要 Windows SDKS 笔者使用virtual sudio 2017进行安装
+3、将enmote.rules 中的IAR_PATH 中的Program Files改为Program Files (x86) 
+   由于笔者使用的64位系统封
+4、SmartRF04EB驱动安装
+5、make enmote install 烧入程序进行测试
